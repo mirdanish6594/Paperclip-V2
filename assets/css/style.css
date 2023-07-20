@@ -544,6 +544,9 @@ section {
   position: relative;
   padding-bottom: 15px;
 }
+.more-latest-products {
+  margin-top: -30px;
+}
 
 .section-header h3::before {
   content: "";
@@ -579,55 +582,6 @@ section {
   background: #f7f7f7;
 }
 
-/*--------------------------------------------------------------
-# Breadcrumbs
---------------------------------------------------------------*/
-.breadcrumbs {
-  padding: 20px 0;
-  background-color: #f7f7f7;
-  min-height: 40px;
-  margin-top: 80px;
-}
-
-.breadcrumbs h2 {
-  font-size: 24px;
-  margin-bottom: 0;
-  font-weight: 400;
-}
-
-.breadcrumbs ol {
-  display: flex;
-  flex-wrap: wrap;
-  list-style: none;
-  padding: 0;
-  margin: 0;
-  font-size: 14px;
-}
-
-.breadcrumbs ol li+li {
-  padding-left: 10px;
-}
-
-.breadcrumbs ol li+li::before {
-  display: inline-block;
-  padding-right: 10px;
-  color: #6c757d;
-  content: "/";
-}
-
-@media (max-width: 768px) {
-  .breadcrumbs .d-flex {
-    display: block !important;
-  }
-
-  .breadcrumbs ol {
-    display: block;
-  }
-
-  .breadcrumbs ol li {
-    display: inline-block;
-  }
-}
 
 /* Featured Services Section
 --------------------------------*/
@@ -1014,7 +968,7 @@ section {
 
 .portfolio-item {
   position: relative;
-  height: 555px;
+  height: 505px;
   overflow: hidden;
 }
 
@@ -1057,6 +1011,13 @@ section {
 #clients .swiper-pagination .swiper-pagination-bullet-active {
   background-color: #2D8CC5;
 }
+@media (max-width: 662px) {
+  .swiper-button-next, .swiper-button-prev {
+      display: none;
+  }
+
+}
+
 
 /* Testimonials Section
 --------------------------------*/
@@ -2233,7 +2194,7 @@ img{
 
 .portfolio-details-whole {
   margin-bottom: 100px;
-  margin-top: 70px;
+  margin-top: 140px;
 }
 
 @media screen and (min-width: 992px){
@@ -2260,7 +2221,8 @@ img{
 /* end portfolio details*/
 
 .more-like-this {
-  margin-bottom: 40px;
+  margin-bottom: -30px;
+  margin-top: -70px;
 }
 
 .footer-info .logo{
