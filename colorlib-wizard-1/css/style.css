@@ -12,7 +12,7 @@
 body {
   font-family: "Muli-Regular";
   font-size: 15px;
-  color: #7D7463;
+  color: #0e0124;
   margin: 0; }
 
 :focus {
@@ -44,7 +44,7 @@ img {
 
 .wrapper {
   height: 100vh;
-  background: #f9f6f1;
+  background: #2E3D64;
   display: flex;
   align-items: center;
   justify-content: center; }
@@ -130,6 +130,10 @@ img {
 
 .form-header {
   text-align: center; }
+
+.form-content p {
+  color: #A8A196;
+}
 
 h3 {
   font-family: "Muli-SemiBold";
