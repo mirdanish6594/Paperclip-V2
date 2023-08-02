@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>FormWizard_v1</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="author" content="colorlib.com">
+
+		<!-- MATERIAL DESIGN ICONIC FONT -->
+		<link rel="stylesheet" href="fonts/material-design-iconic-font/css/material-design-iconic-font.css">
+
+		<!-- STYLE CSS -->
+		<link rel="stylesheet" href="css/style.css">
+	</head>
+	<body>
+		<div class="wrapper">
+            <form action="js/form.js" id="wizard">
+        		<!-- SECTION 1 -->
+                <h2></h2>
+                <section>
+                    <div class="inner">
+						<div class="image-holder">
+							<img src="images/form-wizard-1.jpg" alt="">
+						</div>
+						<div class="form-content" >
+							<div class="form-header">
+								<h3>About Product</h3>
+							</div>
+							<div class="form-row">
+								<div class="form-holder">
+									<input type="text" placeholder="Product title" class="form-control" name="productName">
+								</div>
+                                <div class="select">
+									<div class="form-holder">
+										<div class="select-control" id="category">Categories</div>
+										<i class="zmdi zmdi-caret-down"></i>
+									</div>
+									<ul class="dropdown" name="category">
+										<li rel="Books and Stationery">Books and Stationery</li>
+										<li rel="Fashion and Accesories">Fashion and Accesories</li>
+										<li rel="Electronics and gadgets">Electronics and gadgets</li>
+										<li rel="Miscellaneous">Miscellaneous</li>
+									</ul>
+								</div>
+							</div>
+							<div class="form-row">
+								<div class="form-holder w-100">
+									<textarea name="description" id="" placeholder="Tell us about your product!" class="form-control" style="height: 99px;"></textarea>
+								</div>
+							</div>
+						</div>
+					</div>
+                </section>
+
+				<!-- SECTION 2 -->
+                <h2></h2>
+                <section>
+                    <div class="inner">
+						<div class="image-holder">
+							<img src="images/form-wizard-2.jpg" alt="">
+						</div>
+						<div class="form-content">
+							<div class="form-header">
+								<h3>About You</h3>
+							</div>
+							<p>Please fill with additional info</p>
+							<div class="form-row">
+								<div class="form-holder w-100">
+									<input type="text" placeholder="Full Name" class="form-control" name="name">
+								</div>
+							</div>
+							<div class="form-row">
+								<div class="form-holder">
+									<input type="text" placeholder="Phone Number" class="form-control" name="phoneNumber">
+								</div>
+								<div class="form-holder">
+									<input type="text" placeholder="Campus Address" class="form-control" name="campusAddress">
+								</div>
+							</div>
+						</div>
+					</div>
+                </section>
+            </form>
+		</div>
+
+		<!-- JQUERY -->
+		<script src="js/jquery-3.3.1.min.js"></script>
+
+		<!-- JQUERY STEP -->
+		<script src="js/jquery.steps.js"></script>
+		<script src="js/main.js"></script>
+		
+		<script src="js/form.js"></script>
+</body>
+</html>
