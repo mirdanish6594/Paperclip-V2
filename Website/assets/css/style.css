@@ -925,6 +925,10 @@ section {
   &:hover {
     box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4);
   }
+  img.card-img-top {
+    width: 100%;
+    aspect-ratio: 1.5;
+}
   a {
     color: initial;
     &:hover {
