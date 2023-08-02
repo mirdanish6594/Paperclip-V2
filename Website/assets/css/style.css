@@ -769,9 +769,11 @@ section {
 /* Call To Action Section
 --------------------------------*/
 #call-to-action {
-  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.1)), url(../../images/search.png) fixed center center;
   background-size: cover;
   padding: 60px 0;
+}
+.index-call {
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.1)), url(../../images/search.png) fixed center center;
 }
 
 #call-to-action * {
@@ -807,8 +809,7 @@ section {
 }
 
 #call-to-action .cta-btn:hover {
-  background: #2D8CC5;
-  border: 2px solid #2D8CC5
+
 }
 
 @media (max-width: 992px) {
@@ -2316,4 +2317,29 @@ margin-bottom: 20px;
 margin-left: 5px;
 }
 /* listing form end ***/
+
+/* search-results styling */
+.search-results {
+  background-image: remove !important;
+  background-color: white !important;
+  margin-top: 60px !important;
+}
+.txt-search {
+  color: black !important;
+}
+
+.cta-btn {
+  background-color: #2D8CC5 !important;
+  color: white !important;
+  border: 2px solid #2D8CC5 !important;
+}
+
+.cta-btn:hover {
+  background-color: white !important;
+  color: black !important;
+  border: 2px solid white !important;
+}
+#dropdown {
+  height: 48px !important;
+}
 
