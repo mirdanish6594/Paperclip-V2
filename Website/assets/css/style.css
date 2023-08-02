@@ -519,13 +519,31 @@ h6 {
   margin: 10px;
   color: #fff;
   background: #2D8CC5;
+  border: 2px solid #2D8CC5;
+}
+.btn-get-started:hover {
+  
 }
 
 .btn-get-started:hover {
+  border: 2px solid #2D8CC5;
   background: #fff;
   color: #2D8CC5;
 }
 
+.index-search-btn {
+  background-color: #2D8CC5 !important;
+  color: white !important;
+  border: 2px solid #2D8CC5 !important;
+  border-radius: 5px !important;
+  font-size: 18px !important;
+  font-family: "Montserrat", sans-serif !important;
+}
+.index-search-btn:hover {
+  background-color: white !important;
+  color: #2D8CC5 !important;
+  border: 2px solid #2D8CC5 !important;
+}
 /*--------------------------------------------------------------
 # Sections
 --------------------------------------------------------------*/
@@ -946,7 +964,7 @@ section {
 }
 .card-btn {
   height: 35px;
-  width: 153px;
+  width: auto;
   font-size: 14px !important;
   margin-bottom: -5px;
   margin-left: -4px;
@@ -2335,13 +2353,13 @@ margin-left: 5px;
 .cta-btn {
   background-color: #2D8CC5 !important;
   color: white !important;
-  border: 2px solid #2D8CC5 !important;
+  border: 2px solid white !important;
 }
 
 .cta-btn:hover {
   background-color: white !important;
-  color: black !important;
-  border: 2px solid white !important;
+  color: #2D8CC5 !important;
+  border: 2px solid #2D8CC5 !important;
 }
 #dropdown {
   height: 48px !important;
