@@ -13,7 +13,9 @@ body {
   font-family: "Muli-Regular";
   font-size: 15px;
   color: #0e0124;
-  margin: 0; }
+  margin: 0; 
+  background: url("../images/sell.png");
+}
 
 :focus {
   outline: none; }
@@ -44,13 +46,13 @@ img {
 
 .wrapper {
   height: 100vh;
-  background: #2E3D64;
   display: flex;
   align-items: center;
-  justify-content: center; }
+  justify-content: center;
+}
 
 .wizard {
-  width: 920px;
+  width: 980px;
   position: relative; }
 
 .wizard > .steps {
@@ -124,6 +126,7 @@ img {
 
 .form-content {
   width: 60%;
+  height: auto;
   padding-top: 65px;
   padding-left: 51px;
   padding-right: 51px; }
@@ -234,7 +237,7 @@ textarea.form-control {
 
 .actions {
   position: absolute;
-  bottom: 55px;
+  bottom: 120px;
   right: 51px; }
   .actions ul {
     display: flex; }
@@ -269,7 +272,8 @@ textarea.form-control {
       left: 26px;
       font-family: Material-Design-Iconic-Font; }
   .actions li:nth-child(2) a, .actions li:last-child a {
-    margin-left: 20px; }
+    margin-left: 20px;
+  }
   .actions li:last-child a {
     width: 124px;
     background: #2D8CC5;
@@ -372,7 +376,10 @@ textarea.form-control {
 
   .image-holder img {
     height: 521px;
-    object-fit: cover; } }
+    object-fit: cover; } 
+
+  
+  }
 @media (max-width: 767px) {
   .inner {
     display: block;
@@ -389,7 +396,8 @@ textarea.form-control {
 
   .form-content {
     width: 100%;
-    padding: 50px 20px 30px; }
+    height: auto;
+    padding: 50px 20px 75px; }
 
   .form-row {
     display: block; }
@@ -399,7 +407,7 @@ textarea.form-control {
       margin-bottom: 18px; }
 
   .wrapper {
-    height: 1201px;
+    height: auto;
     background: none; }
 
   .checkbox-circle {
@@ -415,6 +423,9 @@ textarea.form-control {
   .actions {
     right: 50%;
     transform: translateX(50%);
-    bottom: 3%; } }
+    bottom: -84%;
+  } 
+  
+  }
 
 /*# sourceMappingURL=style.css.map */
