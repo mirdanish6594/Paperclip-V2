@@ -7,12 +7,12 @@
 
     mysqli_select_db($mysqli, $dbName);
 
-    $query = "INSERT INTO `clients`(`productID`, `clientName`, `clientPhone`, `transactionDone`) VALUES ('$productID', '$name', '$phoneNumber', '0')";3
+    $query = "INSERT INTO `clients`(`productID`, `clientName`, `clientPhone`, `transactionDone`) VALUES ('$productID', '$name', '$phoneNumber', '0')";
 
     if(mysqli_query($mysqli, $query)){
-        echo "Record updated successfully";
+        echo "1";
     } else {
-        echo "Error updating record: " . mysqli_error($mysqli);
+        echo mysqli_error($mysqli);
     }
 
 ?>

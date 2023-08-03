@@ -405,7 +405,7 @@
   <script src="assets/js/main.js"></script>
   <script>
     function printCard(element, index, parent){
-        document.getElementById(parent).firstElementChild.innerHTML += `<div class='swiper-slide' data-aos='fade-up' data-aos-delay=${index*50}><div class='portfolio-item filter-card'><div class='portfolio-wrap'><div class='card'><img class='card-img-top' src='${element.picURL}' alt='Card image cap'><div class='card-body'><h5 class='card-title'><strong>${element.title}</strong></h5><p class='card-below-text'><i class="bi bi-${element.icon}"></i> ${element.category}</p><p class='card-text'>${element.description}</p><div class='card-bottom'><p class='card-below-text'><a href='#featured-services' class='btn-get-started scrollto animate__animated animate__fadeInUp card-btn'>Read more</a></p></div></div></div></div></div></div>`;
+        document.getElementById(parent).firstElementChild.innerHTML += `<div class='swiper-slide' data-aos='fade-up' data-aos-delay=${index*50}><div class='portfolio-item filter-card'><div class='portfolio-wrap'><div class='card'><img class='card-img-top' src='${element.picURL}' alt='Card image cap'><div class='card-body'><h5 class='card-title'><strong>${element.title}</strong></h5><p class='card-below-text'><i class="bi bi-${element.icon}"></i> ${element.category}</p><p class='card-text'>${element.description}</p><div class='card-bottom'><p class='card-below-text'><a href='product.html?productID=${element.productID}' class='btn-get-started scrollto animate__animated animate__fadeInUp card-btn'>Read more</a></p></div></div></div></div></div></div>`;
     }
     fetch("http://localhost/fetch-latest-products.php").then(response => response.json()).then(data => {
       console.log(data);
