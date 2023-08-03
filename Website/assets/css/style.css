@@ -508,27 +508,28 @@ h6 {
 }
 
 .btn-get-started {
-  font-family: "Montserrat", sans-serif;
-  font-weight: 500;
-  font-size: 16px;
-  letter-spacing: 1px;
-  display: inline-block;
-  padding: 8px 32px;
-  border-radius: 50px;
-  transition: 0.5s;
-  margin: 10px;
-  color: #fff;
-  background: #2D8CC5;
-  border: 2px solid #2D8CC5;
+  font-family: "Montserrat", sans-serif !important;
+  font-weight: 500 !important;
+  font-size: 16px !important;
+  letter-spacing: 1px !important;
+  display: inline-block !important;
+  padding: 8px 32px !important;
+  border-radius: 50px !important;
+  transition: 0.5s !important;
+  margin: 10px !important;
+  color: #fff !important;
+  background: #2D8CC5 !important;
+  border: 2px solid #2D8CC5 !important;
 }
-.btn-get-started:hover {
-  
+.tutorial-btn {
+  width: 273px !important;
+  height: 41px !important;
 }
 
 .btn-get-started:hover {
-  border: 2px solid #2D8CC5;
-  background: #fff;
-  color: #2D8CC5;
+  border: 2px solid #2D8CC5 !important;
+  background: #fff !important;
+  color: #2D8CC5 !important;
 }
 
 .index-search-btn {
@@ -961,7 +962,7 @@ section {
   font-size: 14px;
 }
 .card-btn {
-  height: 35px;
+  height: 40px;
   width: auto;
   font-size: 14px !important;
   margin-bottom: -5px;
@@ -977,6 +978,12 @@ section {
   margin-top: -20px;
   max-height: 49px;
   overflow: hidden;
+}
+.card-disc p {
+  margin-top: -20px;
+  white-space: nowrap !important;
+  overflow: hidden !important;
+  text-overflow: ellipsis !important;
 }
 
 
@@ -2362,5 +2369,109 @@ margin-left: 5px;
 }
 #dropdown {
   height: 48px !important;
+}
+
+/* Font */
+@import url('https://fonts.googleapis.com/css?family=Quicksand:400,700');
+
+/* Design */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+
+
+img {
+  height: auto;
+  max-width: 100%;
+  vertical-align: middle;
+}
+
+.btn {
+  color: #ffffff;
+  padding: 0.8rem;
+  font-size: 14px;
+  text-transform: uppercase;
+  border-radius: 4px;
+  font-weight: 400;
+  display: block;
+  width: 100%;
+  cursor: pointer;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  background: transparent;
+}
+
+.btn:hover {
+  background-color: rgba(255, 255, 255, 0.12);
+}
+
+.cards-search {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.cards_item {
+  display: flex;
+  padding: 1rem;
+}
+
+@media (min-width: 40rem) {
+  .cards_item {
+    width: 50%;
+  }
+}
+
+@media (min-width: 56rem) {
+  .cards_item {
+    width: 33.3333%;
+  }
+}
+
+@media (max-width: 992px) {
+ 
+ .cards_item {
+  width: 100%;
+ }
+}
+.card-search {
+  background-color: white;
+  border-radius: 0.25rem;
+  box-shadow: 0 20px 40px -14px rgba(0, 0, 0, 0.25);
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.card_content {
+  padding: 1rem;
+  background: linear-gradient(to bottom left, #EF8D9C 40%, #FFC39E 100%);
+}
+
+.card_title {
+  color: #ffffff;
+  font-size: 1.1rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-transform: capitalize;
+  margin: 0px;
+}
+
+.card_text {
+  color: #ffffff;
+  font-size: 0.875rem;
+  line-height: 1.5;
+  margin-bottom: 1.25rem;    
+  font-weight: 400;
+}
+.made_by{
+  font-weight: 400;
+  font-size: 13px;
+  margin-top: 35px;
+  text-align: center;
 }
 
