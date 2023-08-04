@@ -20,7 +20,7 @@ $(function(){
             // Send data using AJAX
             $.ajax({
                 type: "POST",
-                url: "http://127.0.0.1/push.php", // Replace with the actual path to your PHP script
+                url: "http://localhost/push.php", // Replace with the actual path to your PHP script
                 data: formData,
                 success: function(response) {
                   // Process the response from PHP (if needed)
