@@ -2235,13 +2235,12 @@ img{
     }
     .card-wrapper2{
         display: flex;
-        justify-content: center;
+        justify-content: center
         align-items: center;
     }
     .product-imgs{
         display: flex;
         flex-direction: column;
-        justify-content: center;
     }
     .product-content{
         padding-top: 0;
