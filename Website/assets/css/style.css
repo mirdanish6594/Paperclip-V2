@@ -944,7 +944,6 @@ section {
   
 .card-img-top {
     width: 100%;
-    aspect-ratio: 1.5;
   }
   a {
     color: initial;
@@ -2235,7 +2234,7 @@ img{
     }
     .card-wrapper2{
         display: flex;
-        justify-content: center
+        justify-content: center;
         align-items: center;
     }
     .product-imgs{
@@ -2427,7 +2426,7 @@ img {
 
 @media (min-width: 56rem) {
   .cards_item {
-    width: 33.3333%;
+    width: 33.333%;
   }
 }
 
