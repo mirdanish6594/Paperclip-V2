@@ -17,10 +17,9 @@ $(function(){
             var productID = Date.now() + Math.floor(Math.random() * 1000);
             formData += '&productID='+ productID;
             console.log(formData);
-            // Send data using AJAX
             $.ajax({
                 type: "POST",
-                url: "http://localhost/push.php", // Replace with the actual path to your PHP script
+                url: "http://localhost/pushListing.php",
                 data: formData,
                 success: function(response) {
                   // Process the response from PHP (if needed)
