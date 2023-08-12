@@ -2477,3 +2477,20 @@ img {
   text-align: center;
 }
 
+.requested-cards {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.req-header {
+  margin-top: 120px !important;
+}
+
+.req-card-para p{
+  margin-top: -20px;
+  white-space: nowrap !important;
+  overflow: hidden !important;
+  text-overflow: ellipsis !important;            
+}
+
