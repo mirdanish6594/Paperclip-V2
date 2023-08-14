@@ -67,7 +67,8 @@ textarea {
 
 .wizard > .steps ul {
   display: flex;
-  justify-content: center; }
+  justify-content: center; 
+}
 
 .wizard > .steps li a {
   display: inline-block;
@@ -369,7 +370,8 @@ textarea.form-control2 {
 
   .image-holder img {
     height: 521px;
-    object-fit: cover; } }
+    object-fit: cover; } 
+  }
 @media (max-width: 767px) {
   .inner {
     display: block;
@@ -412,6 +414,8 @@ textarea.form-control2 {
   .actions {
     right: 50%;
     transform: translateX(50%);
-    bottom: 3%; } }
+    bottom: 3%; } 
+
+  }
 
 /*# sourceMappingURL=style.css.map */

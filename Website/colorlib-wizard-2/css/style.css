@@ -426,6 +426,9 @@ textarea.form-control {
     bottom: -84%;
   } 
   
+  .wizard > .steps {
+    margin-top: 368px; 
+  }
   }
 
 /*# sourceMappingURL=style.css.map */

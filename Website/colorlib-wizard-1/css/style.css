@@ -425,6 +425,9 @@ textarea.form-control {
     transform: translateX(50%);
     bottom: -84%;
   } 
+  .wizard > .steps {
+    margin-top: 368px; 
+  }
   
   }
 
